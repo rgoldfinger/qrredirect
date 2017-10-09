@@ -11,7 +11,7 @@ const urls = [
 app.get('/', function (req, res) {
   const index = Math.floor((Math.random() * urls.length));
   const url = urls[index];
-  res.redirect(301, url);
+  res.redirect(302, url);
 })
 
 app.listen(process.env.PORT || 3000, function () {
