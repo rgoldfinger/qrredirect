@@ -11,9 +11,11 @@ const urls = [
 app.get('/', function (req, res) {
   const index = Math.floor((Math.random() * urls.length));
   const url = urls[index];
+  console.log(index);
+  console.log(url);
   res.redirect(302, url);
 })
 
 app.listen(process.env.PORT || 3000, function () {
-  console.log('Example app listening on port 3000!')
+  console.log(`Example app listening on port ${process.env.PORT || 3000}!`)
 })
