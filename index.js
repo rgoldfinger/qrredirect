@@ -25,8 +25,8 @@ const urls = [
   'https://vimeo.com/210145683',
   'https://www.youtube.com/watch?time_continue=180&v=WF34N4gJAKE',
   'https://www.youtube.com/watch?v=-fny99f8amM',
-  'https://www.youtube.com/watch?v=2Fw0lEaxiVs&list=PLAVM8BJXhjZYGWrm2PoCEILpYottXJa_S',
-  'https://www.youtube.com/watch?v=4B_UYYPb-Gk&feature=player_embedded',
+  'https://www.youtube.com/watch?v=2Fw0lEaxiVs',
+  'https://www.youtube.com/watch?v=4B_UYYPb-Gk',
   'https://www.youtube.com/watch?v=BhUGzujGH1k',
   'https://www.youtube.com/watch?v=DyqmRpN-uqM',
   'https://www.youtube.com/watch?v=FUE2qgx-xpM',
@@ -39,7 +39,7 @@ const urls = [
   'https://www.youtube.com/watch?v=TgqiSBxvdws',
   'https://www.youtube.com/watch?v=u52Oz-54VYw',
   'https://www.youtube.com/watch?v=UFFi9PWKDjg',
-  'https://www.youtube.com/watch?v=XHc9d2Nihuk&list=PLqR3Fxb-I4r06SIqRy4zERP9YheIAgtTB',
+  'https://www.youtube.com/watch?v=XHc9d2Nihuk',
   'https://vimeo.com/264395941',
   'https://youtu.be/IrdYueB9pY4?t=34'
 ];
