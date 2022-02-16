@@ -1,6 +1,4 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node';
-
-
+import type { VercelRequest, VercelResponse } from "@vercel/node";
 
 const urls = [
   "https://i.imgur.com/4gZjIAY.mp4",
@@ -28,10 +26,10 @@ const urls = [
   "https://youtu.be/IrdYueB9pY4?t=34",
 ];
 
-export function (req: VercelRequest, res: VercelResponse) {
+export default function (req: VercelRequest, res: VercelResponse) {
   const index = Math.floor(Math.random() * urls.length);
   const url = urls[index];
   console.log(index);
   console.log(url);
   res.redirect(302, url);
-};
+}
